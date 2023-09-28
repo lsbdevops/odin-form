@@ -61,13 +61,23 @@ body {
 
 .information {
     margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 10vw 
+}
+
+.form-inputs {
+    margin-top: 5vh;
+    background-color: rgba(235, 235, 235, 0.8);
+    box-shadow: 20px -20px 50px lightblue;
+}
+
+.form-inputs > * {
+    margin-left: 5vw;
 }
 
 .information > p {
     font-size: 2rem;
     font-weight: bold;
-    margin-left: 5vw;
-    margin-right: 10vw 
 }
 
 .information > p:nth-child(1) {
@@ -76,4 +86,35 @@ body {
 
 .information > p:nth-child(2) {
     margin-top: 0px;
+}
+
+fieldset {
+    border: none;
+    /* Remove default padding for alignment */
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-row {
+    display: flex;
+    gap: 5%;
+}
+
+label {
+    color: rgb(80, 80, 80);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding-left: 0.5rem;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 30px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
 }
