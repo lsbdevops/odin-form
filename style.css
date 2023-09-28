@@ -133,3 +133,8 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
     font-size: 2rem;
     box-shadow: 2px 2px rgb(100, 190, 226);
 }
+
+.button-container > p {
+    margin-left: 5vw;
+    font-size: 1.4rem;
+}
