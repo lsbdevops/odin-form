@@ -120,3 +120,16 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
     border-radius: 10px;
     padding: 10px;
 }
+
+.form-container button {
+    margin-left: 5vw;
+    margin-top: 2.5vw;
+    color: white;
+    background-color: skyblue;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+    box-shadow: 2px 2px rgb(100, 190, 226);
+}
