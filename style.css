@@ -103,6 +103,7 @@ ul {
 .form-row {
     display: flex;
     gap: 5%;
+    margin-bottom: calc(1vw + 10px);
 }
 
 label {
@@ -112,9 +113,10 @@ label {
     padding-left: 0.5rem;
 }
 
-input[type="text"] {
-    width: 200px;
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+    width: calc(150px + 5vw);
     height: 30px;
     border: 1px solid rgb(194, 194, 194);
     border-radius: 10px;
+    padding: 10px;
 }
