@@ -125,6 +125,10 @@ input:focus {
     outline: 1px solid blue;
 }
 
+input.error {
+    border: 1px solid red;
+}
+
 .form-container button {
     margin-left: 5vw;
     margin-top: 2.5vw;
