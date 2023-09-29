@@ -154,3 +154,21 @@ input:focus {
     outline: 2px solid white;
     color: black;
 }
+
+.button-container a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button-container a:visited {
+    color: purple;
+}
+
+.image-footer a {
+    color: white;
+    font-weight: bold;
+}
+
+.image-footer a:visited {
+    color: lightgrey;
+}
