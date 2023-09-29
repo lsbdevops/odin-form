@@ -142,3 +142,15 @@ input:focus {
     margin-left: 5vw;
     font-size: 1.4rem;
 }
+
+.button-container > button:hover {
+    cursor: pointer;
+    outline: 1px solid darkblue;
+    background-color: rgb(108, 196, 231);
+    box-shadow: none;
+}
+
+.button-container > button:active {
+    outline: 2px solid white;
+    color: black;
+}
