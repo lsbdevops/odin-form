@@ -27,22 +27,22 @@
             </div>
             <div class="form-inputs">
                 <h1>Let's do this!</h2>
-                <form action="" method="get">
+                <form action="" method="get" id="account_form">
                     <fieldset>
                         <div class="form-row">
                             <ul>
-                                <li><label for="first_name">FIRST NAME</label></li>
-                                <li><input type="text" name="first_name" id="first_name"></li>
+                                <li><label for="first_name" aria-label="required">FIRST NAME*</label></li>
+                                <li><input type="text" name="first_name" id="first_name" required pattern="[A-Za-z]{1,35}" maxlength="35"></li>
                             </ul>
                             <ul>
                                 <li><label for="last_name">LAST NAME</label></li>
-                                <li><input type="text" name="last_name" id="last_name"></li>
+                                <li><input type="text" name="last_name" id="last_name" pattern="[A-Za-z]{1,35}" maxlength="35"></li>
                             </ul>
                         </div>
                         <div class="form-row">
                             <ul>
-                                <li><label for="email">EMAIL</label></li>
-                                <li><input type="email" name="email" id="email"></li>
+                                <li><label for="email" aria-label="required">EMAIL*</label></li>
+                                <li><input type="email" name="email" id="email" placeholder="you@example.com" required></li>
                             </ul>
                             <ul>
                                 <li><label for="phone">PHONE NUMBER</label></li>
@@ -51,19 +51,19 @@
                         </div>
                         <div class="form-row">
                             <ul>
-                                <li><label for="password">PASSWORD</label></li>
-                                <li><input type="password" name="password" id="password"></li>
+                                <li><label for="password" aria-label="required">PASSWORD*</label></li>
+                                <li><input type="password" name="password" id="password" required></li>
                             </ul>
                             <ul>
-                                <li><label for="confirmation">CONFIRM PASSWORD</label></li>
-                                <li><input type="password" name="password_confirmation" id="confirmation"></li>
+                                <li><label for="confirmation" aria-label="required">CONFIRM PASSWORD*</label></li>
+                                <li><input type="password" name="password_confirmation" id="confirmation" required></li>
                             </ul>
                         </div>
                     </fieldset>
                 </form>
             </div>
             <div class="button-container">
-                <button type="submit">Create Account</button>
+                <button type="submit" form="account_form">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>

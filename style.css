@@ -121,6 +121,10 @@ input[type="text"], input[type="email"], input[type="tel"], input[type="password
     padding: 10px;
 }
 
+input:focus {
+    outline: 1px solid blue;
+}
+
 .form-container button {
     margin-left: 5vw;
     margin-top: 2.5vw;
