@@ -103,7 +103,11 @@ ul {
 .form-row {
     display: flex;
     gap: 5%;
-    margin-bottom: calc(1vw + 10px);
+    margin-bottom: calc(1vh + 10px);
+}
+
+.form-row.error {
+    margin-bottom: 1vh;
 }
 
 label {
@@ -127,6 +131,18 @@ input:focus {
 
 input.error {
     border: 1px solid red;
+}
+
+.help {
+    color: red;
+    visibility: hidden;
+    height: 0px;
+}
+
+.help.error {
+    visibility: visible;
+    width: auto;
+    height: 1rem;
 }
 
 .form-container button {
@@ -176,3 +192,4 @@ input.error {
 .image-footer a:visited {
     color: lightgrey;
 }
+
